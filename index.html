@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>My Awesome Company Contact Page</title>
   </head>
   <body>
-
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
-
+    <form>
       <!-- Add a label for 'fullname'-->
-
+      <label>fullname</label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        placeholder="Enter Name"
+        required="required"
+      />
       <!-- Include the place holder text "Enter Name" and make this input required -->
 
-
       <!-- Add a label for 'email'-->
-
+      <label>email</label>
       <!-- Add a email input with the id and name attributes set to 'email' -->
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter Email"
+        required="required"
+      />
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
-
       <!-- Add a label for 'phone'-->
-
+      <label>phone</label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
+      <input
+        type="text"
+        id="phone"
+        name="phone"
+        placeholder="Enter telephone (optional)"
+      />
       <!-- Include the place holder text "Enter Telephone (optional)" -->
 
-
       <!-- Add a label for 'message'-->
-
+      <label>message</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
+      <textarea id="message" name="message" rows="8" cols="50">
+Enter message</textarea
+      >
       <!-- Include the place holder text "Enter Message" -->
-
-
+      <input type="checkbox" id="checkbox" />
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
-
-
+      <input type="submit" />
       <!-- Add an input with the type set to 'submit' -->
-
-    
+    </form>
   </body>
 </html>
