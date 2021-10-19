@@ -12,7 +12,7 @@
     <!-- First, create a form tag where our inputs will be nested -->
     <form>
       <!-- Add a label for 'fullname'-->
-      <label>fullname</label>
+      <label for="fullname">Full Name</label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <input
         type="text"
@@ -24,7 +24,7 @@
       <!-- Include the place holder text "Enter Name" and make this input required -->
 
       <!-- Add a label for 'email'-->
-      <label>email</label>
+      <label for="email">Email</label>
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <input
         type="email"
@@ -36,22 +36,26 @@
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
       <!-- Add a label for 'phone'-->
-      <label>phone</label>
+      <label for="phone">Phone</label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <input
-        type="text"
+        type="tel"
         id="phone"
         name="phone"
-        placeholder="Enter telephone (optional)"
+        placeholder="Enter Telephone (optional)"
       />
       <!-- Include the place holder text "Enter Telephone (optional)" -->
 
       <!-- Add a label for 'message'-->
-      <label>message</label>
+      <label for="message">Message</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
-      <textarea id="message" name="message" rows="8" cols="50">
-Enter message</textarea
-      >
+      <textarea
+        id="message"
+        name="message"
+        rows="8"
+        cols="50"
+        placeholder="Enter Message"
+      ></textarea>
       <!-- Include the place holder text "Enter Message" -->
       <input type="checkbox" id="checkbox" />
       <!-- Add a checkbox input with the id set to 'checkbox' -->
